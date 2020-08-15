@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Repository/Particles-Tutorial/cubemesh.tres" type="CubeMesh" id=1]
+[ext_resource path="res://Repository/Particles-Tutorial/particlesmaterial.tres" type="Material" id=2]
+
+
+
+[node name="Particles" type="Particles"]
+amount = 100
+process_material = ExtResource( 2 )
+draw_pass_1 = ExtResource( 1 )
